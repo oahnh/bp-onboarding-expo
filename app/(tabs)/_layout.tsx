@@ -29,7 +29,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
+          title: 'Welcome',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -47,13 +47,14 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="two"
+      {/**TODO: uncomment the code below, and fill in the sections labeled TODO */}
+      {/* <Tabs.Screen
+        name="TODO"
         options={{
-          title: 'Tab Two',
+          title: "TODO",
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
-      />
+      /> */}
     </Tabs>
   );
 }
